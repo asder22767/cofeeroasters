@@ -54,6 +54,16 @@ a {
     padding-left: 20px;
 }
 
+.text--similarities {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
 /* Header nav */
 
 .header__wrapper {
@@ -97,7 +107,7 @@ a {
 
 .hero__container {
     background-image: url(./../img/background_hero.png);
-    height: 600px;
+    background-size: auto;
     border-radius: 6px;
 }
 
@@ -110,6 +120,7 @@ a {
 
 .hero__nothing-wrapper {
     margin-top: 117px;
+    margin-bottom: 116px;
 }
 
 .hero__heading {
@@ -226,16 +237,6 @@ a {
     opacity: 0.8;  
     margin-bottom: 86px;
     max-width: 540px;
-}
-
-.text--similarities {
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FEFCF7;
 }
 
 .why__list {
