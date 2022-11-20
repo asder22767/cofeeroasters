@@ -339,9 +339,6 @@ a {
     flex-direction: column;
 }
 
-.preferences__wrapper-list {
-}
-
 .preferences__heading {
     font-weight: 900;
     font-size: 40px;
