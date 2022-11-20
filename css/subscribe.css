@@ -76,6 +76,18 @@ a {
     line-height: 26px;
 }
 
+.link--button {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 16px 31px;
+    background: #0E8784;
+    border-radius: 6px;
+}
+
 /* Header nav */
 
 .header__wrapper {
@@ -253,13 +265,17 @@ a {
 /* Preferences */
 
 .preferences {
+    margin-bottom: 264px;
 }
 
 .preferences__wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     color: #333D4B;
+}
+
+.preferences__list-ordered {
+    margin-right: 125px;
 }
 
 .preferences__item {
@@ -294,6 +310,22 @@ a {
     padding-right: 28px;
 }
 
+.link--nd::before {
+    content: "02";
+}
+
+.link--rd::before {
+    content: "03";
+}
+
+.link--rth::before {
+    content: "04";
+}
+
+.link--fth::before {
+    content: "05";
+}
+
 .preferences__link-driver:hover {
     opacity: 0.8;
 }
@@ -303,33 +335,81 @@ a {
 }
 
 .preferences__wrapper-left {
+    display: flex;
+    flex-direction: column;
 }
 
 .preferences__wrapper-list {
 }
 
 .preferences__heading {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin-bottom: 56px;
 }
 
 .preferences__list-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 88px;
 }
 
 .preferences__item-option {
+    width: 228px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    color: #333D4B;
+    padding: 32px 28px 88px 28px;
+}
+
+
+.preferences__item-option:not(:last-child) {
+    margin-right: 23px;
 }
 
 .preferences__heading-item {
+    width: 175px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
 }
 
-.preferences__text-item {
+.preferences__item-option:hover {
+    background-color: #FDD6BA;
+}
+
+.preferences__item-option:active {
+    color: #FEFCF7;
+    background-color: #0E8784;
 }
 
 .preferences__list-order {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C343E;
+    padding: 27px 64px;
+    margin-bottom: 40px;
 }
 
 .preferences__text-total {
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.5;
 }
 
 .preferences__text-info {
+    width: 602px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;    
+    color: #FFFFFF;
+}
+
+.preferences__link-overlooked {
+    align-self: flex-end;
 }
 
 /* Footer */
