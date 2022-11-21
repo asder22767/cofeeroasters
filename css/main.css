@@ -156,6 +156,14 @@ a {
     border-radius: 6px;
 }
 
+.link--button:hover {
+    background-color: #66D2CF;
+}
+
+.link--button:active {
+    background-color: #E2DEDB;
+}
+
 /* Our section */
 
 .collection {
